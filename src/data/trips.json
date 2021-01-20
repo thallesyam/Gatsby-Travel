@@ -3,24 +3,24 @@
     "img": "../assets/images/travel-01.jpg",
     "alt": "Lago Moraine, Canadá",
     "name": "Lago Moraine, Canadá",
-    "button": "View Destination"
+    "button": "Ver Destino"
   },
   {
     "img": "../assets/images/travel-02.jpg",
     "alt": "Aurora Boreal",
     "name": "Aurora Boreal",
-    "button": "View Destination"
+    "button": "Ver Destino"
   },
   {
     "img": "../assets/images/travel-03.jpg",
     "alt": "Flowing Plunge",
     "name": "Flowing Plunge",
-    "button": "View Destination"
+    "button": "Ver Destino"
   },
   {
     "img": "../assets/images/travel-04.jpg",
     "alt": "Ad Deir",
     "name": "Ad Deir",
-    "button": "View Destination"
+    "button": "Ver Destino"
   }
 ]
