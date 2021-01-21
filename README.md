@@ -1,4 +1,4 @@
-# Site institucional Ficticio
+# Site institucional Fictício
 
 - Explorix é um site ficticio de uma empresa de viagens.
 - Apenas a Home está criada por que o objetivo era aprenas treinar e praticar o layout.
@@ -13,7 +13,7 @@
 ## Como rodar o projeto
 
 - Rodar um git clone no terminal
-- `yarn` ou `npm` para instalar as dependencias
+- `yarn` ou `npm` para instalar as dependências
 - `yarn develop` ou `npm run develop` para rodar o servidor
 
 ![image](https://user-images.githubusercontent.com/59545660/105257238-1f02c880-5b66-11eb-9572-a98f0e7789a2.png)
