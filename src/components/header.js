@@ -1,21 +1,20 @@
 import { Link } from 'gatsby'
 import React from "react"
-import { FaBars } from 'react-icons/fa'
 import styled from 'styled-components'
 import { menuData } from '../data/MenuData'
 import { Button } from '../components/Button'
 
 const Header = () => {
+
   return (
     <Nav>
       <NavLink to="/">EXPLORIX</NavLink>
-      <Bars />
       <NavMenu>
-        { menuData.map((item, index) => (
-          <NavLink to={item.link} key={index}>
-            { item.title }
-          </NavLink>
-        )) }
+          { menuData.map((item, index) => (
+              <NavLink to={item.link} key={index}>
+                { item.title }
+              </NavLink>
+            )) }
       </NavMenu>
       <NavBtn>
         <Button primary='true' round='true' to='/trips'>
@@ -50,20 +49,7 @@ const NavLink = styled(Link)`
   cursor: pointer;
 `
 
-const Bars = styled(FaBars)`
-  display: none;
-  color: #fff;
 
- @media screen and (max-width: 768px) {
-   display: block;
-   position: absolute;
-   top: 0;
-   right: 0;
-   transform: translate(-100%, 75%);
-   font-size: 1.8rem;
-   cursor: pointer;
- }
-`
 
 const NavMenu = styled.div`
   display: flex;
